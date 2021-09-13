@@ -53,7 +53,6 @@ Y_test=sc.fit_transform(y_test)
 
 #d22=sc.fit_transform(d2)
 
-# model inşası
 from sklearn.linear_model import LinearRegression
 lr= LinearRegression()
 lr.fit(X_train,Y_train)
